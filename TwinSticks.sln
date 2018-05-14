@@ -1,14 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwinSticks", "Assembly-CSharp-firstpass.csproj", "{B2472DA4-FCC4-9251-3E38-5C7A3347DCDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwinSticks", "Assembly-CSharp.csproj", "{7CFDB9FD-FBF8-3870-25F1-CF1F1FBA4D37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwinSticks", "Assembly-CSharp-Editor-firstpass.csproj", "{210E094F-B3D0-5050-61DD-C07BAABA7AC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{B2472DA4-FCC4-9251-3E38-5C7A3347DCDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2472DA4-FCC4-9251-3E38-5C7A3347DCDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2472DA4-FCC4-9251-3E38-5C7A3347DCDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2472DA4-FCC4-9251-3E38-5C7A3347DCDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFDB9FD-FBF8-3870-25F1-CF1F1FBA4D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFDB9FD-FBF8-3870-25F1-CF1F1FBA4D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFDB9FD-FBF8-3870-25F1-CF1F1FBA4D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFDB9FD-FBF8-3870-25F1-CF1F1FBA4D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{210E094F-B3D0-5050-61DD-C07BAABA7AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{210E094F-B3D0-5050-61DD-C07BAABA7AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{210E094F-B3D0-5050-61DD-C07BAABA7AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{210E094F-B3D0-5050-61DD-C07BAABA7AC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
