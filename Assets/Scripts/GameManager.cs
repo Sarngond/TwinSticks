@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour {
 	public bool recording = true;
 	public GameObject pauseImage;
 
+	private float fixedDeltaTime;
 	private bool isPaused = false;
 
 	// Use this for initialization
@@ -15,6 +16,8 @@ public class GameManager : MonoBehaviour {
 		PlayerPrefsManager.UnlockLevel (2);
 //		print (PlayerPrefsManager.IsLevelUnlocked (1));
 //		print (PlayerPrefsManager.IsLevelUnlocked (2));
+		fixedDeltaTime = Time.fixedDeltaTime;
+		print (fixedDeltaTime);
 	}
 	
 	// Update is called once per frame
@@ -45,6 +48,10 @@ public class GameManager : MonoBehaviour {
 	public void ResumeGame() {
 		pauseImage.SetActive (false);
 		Time.timeScale = 1f;
-		Time.fixedDeltaTime = 0.02f;
+		Time.fixedDeltaTime = fixedDeltaTime;
 	}
+
+//	void OnApplicationPause (bool pauseStatus) {
+//		isPaused = pauseStatus;
+//	}
 }
